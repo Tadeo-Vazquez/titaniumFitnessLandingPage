@@ -792,6 +792,17 @@
                 font-size: 2.2rem;
             }
         }
+        @media (max-width: 550px) {
+            .logo{
+                display: flex;
+                flex-direction: column;
+                gap: 1px;
+                font-size: 1.5rem;
+            }
+            .hero{
+                margin-top: 100px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -805,7 +816,7 @@
             <div class="mobile-menu">
                 <i class="fas fa-bars"></i>
             </div>
-            <nav>
+            <nav id="nav-header">
                 <ul>
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#promociones">Promociones</a></li>
